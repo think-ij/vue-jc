@@ -1,0 +1,19 @@
+{
+  "name": "vue-jc",
+  "version": "1.0.0",
+  "description": "vue works for jc",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/think-ij/vue-jc.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/think-ij/vue-jc/issues"
+  },
+  "homepage": "https://github.com/think-ij/vue-jc#readme"
+}
