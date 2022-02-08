@@ -44,3 +44,14 @@ https://simplevue.gitbook.io/intro/
 git clone https://github.com/think-ij/vue-jc.git
 
 ```
+
+## editor
+> front-end 개발은 대부분 vs code 를 이용하여 개발한다. https://code.visualstudio.com/
+> 설치 후, 몇가지 확장 프로그램을 설치하도록 한다.
+
+### vs code 추천 설치 확장프로그램 목록
+- Live Server // https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer
+- ESLint // https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint
+- Prettier - Code formatter // https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode
+- Vetur // https://marketplace.visualstudio.com/items?itemName=octref.vetur
+
