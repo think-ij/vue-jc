@@ -24,8 +24,6 @@ https://poiemaweb.com/
 ### vue
 https://simplevue.gitbook.io/intro/
 
-### git
-
 
 ## 프로젝트 폴더
 ### jc-publisher
@@ -33,3 +31,16 @@ https://simplevue.gitbook.io/intro/
 
 ### jc-project
 > for vue.js
+
+
+## git
+> git 은 개발자들간의 개발작업물 공유 (형상관리) 를 위한 협업 툴 이다. https://git-scm.com/ 에서 git  설치가 필요하고, https://github.com/ 가입이 필요하다.
+> 이미 만들어진 git repository 의 콜라보레이터 로 참여하기 위해 승인을 받아야 한다.
+> repository 콜라보레이터 인 경우 pull, push 명령어 모두를 사용할 수 있다.
+> git bash 에서 다음과 같은 명령어로 git repogitory 에서 파일을 받는다. (git 설치, github 가입 후)
+
+```javascript
+
+git clone https://github.com/think-ij/vue-jc.git
+
+```
