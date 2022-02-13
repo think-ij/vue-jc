@@ -1,0 +1,22 @@
+#style1{
+    background-color: rgb(255, 248, 220);
+    color: crimson;    
+}  
+#style2{
+    font-size: 20px;
+    
+}
+#style3{
+    color: brown;
+    font-size: 25px;
+}
+#style4{
+    font-size: 25px;
+    color: rgb(204, 224, 18);
+}
+#leg{
+    height: 100vh;
+    background-image:url('하체사진.jpg') ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
