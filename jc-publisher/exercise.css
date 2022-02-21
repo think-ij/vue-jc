@@ -1,6 +1,7 @@
 #style1{
     background-color: rgb(255, 248, 220);
-    color: crimson;    
+    color: crimson;  
+    border: 2px solid red;  
 }  
 #style2{
     font-size: 20px;
@@ -20,3 +21,4 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+   

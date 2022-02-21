@@ -1,0 +1,27 @@
+/* div{
+    color: red;
+} */
+
+/* #style::after{
+    content: "";
+    display: block;
+    clear: both; */
+/* } */
+
+
+#style{
+    color: rgb(70, 216, 114);
+    border: 1px solid rgb(18, 194, 218);
+    float: left;
+    overflow: hidden;
+
+}
+#style div{
+    color: red;
+    border: 1px solid rgb(131, 155, 24);
+    
+    width: 30px;
+    height: 30px;
+    position:relative;
+    display: inline;
+}
