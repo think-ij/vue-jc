@@ -1,10 +1,13 @@
 #style1 {
-    color: green;
-    font-size: 30px;
-
+  color: green;
+  font-size: 30px;
 }
 
-#style2{
-    color: red;
-    font-size: 100px;
+#style2 {
+  color: red;
+  font-size: 100px;
+}
+
+#myId01 {
+  border: 1px solid green;
 }

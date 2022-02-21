@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <!-- linked style 선언 -->
+    <!-- <link rel="stylesheet" href="mycss.css" /> -->
+
+    <style>
+      /* embedded style 선언 */
+      /* div {
+        border: 1px solid red;
+      }
+      #myId01 {
+        border: 1px solid blue;
+      }
+      .myClass01 {
+        border: 1px solid pink;
+      }
+      .myClass02 {
+        border: 1px solid purple;
+      } */
+      #wrapper {
+        border: 2px solid black;
+        /* overflow: hidden; */
+      }
+      #wrapper:after {
+        content: "";
+        display: block;
+        clear: both;
+      }
+
+      #wrapper div {
+        border: 1px solid red;
+        width: 100px;
+        height: 100px;
+        display: block;
+        float: left;
+        /* float 을 쓸때는, float 해제를 반드시 해야 한다.*/
+      }
+      #box2 {
+        border-color: blue;
+        position: relative;
+        top: 30px;
+      }
+      #box22 {
+        border-color: purple;
+        left: 50px;
+        top: 50px;
+        position: absolute;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- style 선언 -->
+    <!-- <div id="myId01" class="myClass01">div 1</div>
+    <div class="myClass01">div 2</div>
+    <div class="myClass01 myClass02">div 3</div>
+    <div class="myClass02">div 4</div> -->
+
+    <hr />
+    <!-- box model -->
+    <!-- div 는 display: block; 박스모델 이다. 
+        display: block; 
+            - 사이즈를 가질수 있다. (width: 100%; 기본)
+            - margin, padding 값을 가질수 있다.
+            - div, p 태그 등이 이에 해당한다.
+        display: inline;
+            - 사이즈를 가질수 없다.
+            - span, strong, b 등이 이에 해당한다.
+        display: none;
+            - 렌더링 하지 않는다.
+    -->
+
+    <!-- position 속성 -->
+    <!-- position 속성은 static, relative, absolute 가 있다. 
+        기본 position 값은 static 이다.
+    -->
+    <!-- <div id="box1">div 1</div>
+    <div id="box2">
+      <div id="box22">div 2>2</div>
+    </div>
+    <div id="box3">div 3</div>
+    <div id="box4">div 4</div> -->
+
+    <!-- float 속성 -->
+    <div id="wrapper">
+      <div>div1</div>
+      <div id="box2">div2</div>
+      <div>div3</div>
+    </div>
+  </body>
+</html>
