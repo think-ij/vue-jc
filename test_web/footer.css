@@ -1,0 +1,68 @@
+#wrap_foot{
+    position: relative;
+    display: block;
+    padding: 30px;
+    width: auto;
+    background-color: #1c2231;
+    font-size: 13px;
+}
+.guide{
+    display: flex;
+    margin-bottom: 15px;
+}
+    
+
+.guide > li{
+    margin-right: 5px;
+    
+}
+.guide > li:not(:last-child) > a{
+    border-right: 1px solid #9daccf;
+    padding: 0px 7px 0px 7px;
+    
+}
+.guide > li > a{
+    color: #9daccf;
+    font-size: 12px;
+}
+#play_up > a{
+    color: #3db4f9;
+    font-weight: bold;
+}
+.info {
+    color: #fff;
+}
+.info p{
+    margin-top: 15px;
+}
+.address{
+    color: #ff9c00;
+}
+
+.wrap_engine{
+    
+    display: block;
+    position: relative;
+    bottom: 80px;
+    float: right;
+}
+
+.wrap_community{
+    
+    display: block;
+    position: absolute;
+    right: 0px;
+    background: url(../test_web/img/icon_open.jpg);
+    background-repeat: no-repeat;
+    bottom: 30px;
+    font-size: 0px;
+    height: 37px;
+    width: 100px;
+    margin-right: 15px;
+}
+    
+
+
+
+
+

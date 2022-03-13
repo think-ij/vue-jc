@@ -1,0 +1,362 @@
+/* 슬라이드 사진/뉴스 */
+
+.visual{
+    display: flex;
+    padding: 20px;
+}
+    
+
+
+.visual_news{
+    display: inline-block;
+    position:absolute;
+    margin: 20px 0px 0px 700px;
+    background: url(../test_web/img/bg_news.png);
+    padding: 20px;
+    right: 200px;
+    top: 180px;
+    width: 290px;
+    height: 240px;
+    color: #fff;
+}
+    
+.visual_news > h3{
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+.visual_news > p ,
+.news_under {
+    margin-top: 45px;
+    font-size: 14px;
+}
+.news_under > li{
+    margin-top: 5px;
+}    
+
+.news_plus{
+    background: url(../test_web/img/plus.png);
+    position: absolute;
+    margin-bottom: 10px;
+    right: 0px;
+    bottom: 95px;
+    display: block;
+    width: 66px;
+    height: 66px;
+    font-size: 0;
+}
+.wrap_button{
+    position: absolute;
+    margin-top: 40px;
+    display: flex;
+    right: 152px;
+}
+    
+    
+.btn_prev{
+    background: url(../test_web/img/news_control.png);
+    width: 60px;
+    height: 60px;
+    font-size: 0px;
+}
+    
+
+.btn_stop{
+    background:  url(../test_web/img/news_control.png);
+    background-position: -125px;
+    width: 60px;
+    height: 60px;
+    font-size: 0px;
+}
+.btn_next{
+    background:  url(../test_web/img/news_control.png);
+    background-position: -185px;
+    width: 60px;
+    height: 60px;
+    font-size: 0px; 
+}
+
+/* ----------------------------------------------- */
+
+/* 비정규군 보상위원회 ~ 열린장관실 */
+
+.wrap_list{
+    background-color: rgb(242, 242, 242);
+    height: 150px;
+    
+}
+    
+
+
+
+
+.btn_list{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+    
+
+.btn_list>li>a{
+    display: inline-block;
+    width: 80px;
+    height: 55px;
+    font-size: 12px;
+    font-weight:bold;
+    margin-top: 20px;
+}
+
+.btn_list > li > a > h4{
+    margin-top: 50px;
+}
+   
+    
+
+.list_1{
+    background: url(../test_web/img/btn_rolling.png);
+    background-position: 76px;
+}   
+.list_2{
+    background: url(../test_web/img/btn_rolling.png);
+    background-position: 10px;
+} 
+.list_3{
+    background: url(../test_web/img/btn_rolling.png);
+    background-position: -100px;
+}   
+.list_4{
+    background: url(../test_web/img/btn_rolling.png);
+    background-position: -220px;
+}   
+.list_5{
+    background: url(../test_web/img/btn_rolling.png);
+    background-position: -335px;
+}   
+.list_6{
+    background: url(../test_web/img/btn_rolling.png);
+    background-position: -460px;
+}   
+.list_7{
+    background: url(../test_web/img/btn_rolling.png);
+    background-position: -690px;
+}   
+.list_8{
+    background: url(../test_web/img/btn_rolling.png);
+    background-position: -810px;
+}   
+.list_9{
+    background: url(../test_web/img/btn_rolling.png);
+    background-position: -930px;
+}   
+.list_10{
+    background: url(../test_web/img/btn_rolling.png);
+    background-position: -1050px;
+}   
+
+
+/* ----------------------------------------------------- */
+
+/* 보도자료 card*/
+.wrap_news{
+    display: inline-block;
+    position: relative;
+    bottom: 50px;
+}
+    
+.news_box_gr,.news_box_bl{
+    border: 5px solid #dfdfdf;
+    display: inline-block;
+    position:absolute;
+    background-color: #fff;
+    width: 300px;
+    padding: 60px 25px 50px 27px;
+    height: 155px;
+    font-size: 14px;
+}
+
+.edge_gr{
+    
+    position: relative;
+    background-color: #15989a;
+    padding: 5px 5px 5px 5px;
+    color: #fff;
+    
+}
+.edge_gr > img{
+    position: absolute;
+    left: 0px;
+    top: 28px;
+}
+
+    
+    
+
+
+    
+    
+.news_more{
+    position: absolute;
+    top: 40px;
+}
+.card_title{
+    margin-top: 30px;
+    font-size: 18px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+.news_box_gr > p,
+.news_box_bl > p{
+    margin-top: 10px;
+}
+    
+.news_box_bl{
+    left: 500px;
+}
+
+
+
+.news_bn {
+    display: block;
+    position: relative;
+    text-align:end;
+}
+.wrap_title{
+    margin-top: 15px;
+    text-align: center;
+    height: 65px;
+    
+}
+.wrap_title ul > li> a{
+    color: #fff;
+    font-weight: bold;
+}
+
+.news_title_gr{
+    position: absolute;
+    background: url(../test_web/img/bg_news_green02.gif);
+    height: 66px;
+    left: 0px;
+    width: 352px;
+}
+    
+.news_title_bl{
+    position: absolute;
+    background: url(../test_web/img/bg_news_blue02.gif);
+    height: 66px;
+    left: 0px;
+    width: 352px;
+}
+
+
+    
+    
+.news_title_gr> li,
+.news_title_bl> li {
+    margin-top: 10px;
+    padding-bottom: 10px;
+    
+}
+    
+.bn_img{
+    display: block;
+    position: relative;
+    background: url(../test_web/img/bn_img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 0px;
+    width: 290px;
+    height: 240px;
+    left: 970px;
+}
+    
+
+
+    
+.bn_btt {
+    position:relative;
+    margin-left: 970px;
+    bottom: 25px;
+
+}   
+    
+    
+.bn_notice{
+    background: url(../test_web/img/bg_slider_bn.png);
+    width: 290px;
+    display: flex;
+    position: relative;
+    font-weight: bold;
+    color: #fff;
+    height: 25px;
+    margin-top: 5px;
+    bottom: 2px;
+    
+   
+
+}    
+.bn_control{
+   
+    position: relative;
+    left: 160px;
+    width: 131px;
+    bottom: 27px;
+    
+    display: flex;
+    justify-content: end;
+    
+    
+    
+
+}   
+.bn_prev{
+    background: url(../test_web/img/btn_control_btt.png);
+    font-size: 0px;
+    height: 25px;
+    width: 30px;
+    background-position: -10px;
+}    
+.bn_stop{
+    background: url(../test_web/img/btn_control_btt.png);
+    font-size: 0px;
+    height: 25px;
+    width: 30px;
+    background-position: -50px;
+    
+} 
+.bn_next{
+    background: url(../test_web/img/btn_control_btt.png);
+    font-size: 0px;
+    height: 25px;
+    width: 30px;
+    background-position: -130px;
+}
+.bn_all{
+    background: url(../test_web/img/btn_control_btt.png);
+    font-size: 0px;
+    height: 25px;
+    width: 30px;
+    background-position: -170px;
+}   
+
+    
+    
+
+
+/* ----------------------------------------- */
+/* 카드뉴스 */
+
+    
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+
+
+
+
+    

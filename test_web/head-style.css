@@ -1,0 +1,138 @@
+
+
+/* 전체내용 누리집안내 최상단라인 */
+
+
+
+
+.gnb_nv{
+    background:#006ddd;
+    display:flex;
+    justify-content: flex-end;
+    
+}
+.gnb_nv > li >a{
+    display:flex;
+    line-height: 26px;
+    color: #fff;
+    font-size: 0.85em;
+    margin-right: 5px;
+    padding: 0px 0px 0px 10px;
+    
+    
+}
+
+.gnb_nv > li:not(:last-child)>a {
+    
+    padding-right: 10px;
+    border-right: 1px solid
+    rgb(3, 165, 253)
+
+}
+
+.last{
+    margin-right: 10px;
+}
+
+/* ------------------------- */
+
+
+
+
+/* 대한민국 국방부 라인 */
+.title_logo{
+    width: 205px;
+    height: 80px
+}
+
+.gnb_search_link{
+    display:flex;
+    border-bottom: 1px solid rgb(199, 197, 197);
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.search_link{
+    display: flex;
+    position: absolute;
+    float: left;
+    margin-top: 20px;
+    margin-left: 250px;
+}
+    
+
+
+
+
+.search{
+    border: 4px solid #006ddd;
+    width: 200px;
+    height: 28px;
+   
+    
+}
+.button{
+    background: #006ddd url(../test_web/img/button.png);
+    position: absolute;
+    background-position: center;
+    background: size 50%;
+    background-repeat: no-repeat;
+    
+    width: 30px;
+    height: 38px;
+}    
+
+.gnb_link{
+    display: flex;
+    position: relative;
+    left: 50px;
+}
+    
+    
+.gnb_link li{
+    margin: 0 10px;
+    color: #333333;
+    font-size: 14px;
+}  
+.recommend_bg{
+    
+    background: url(../test_web/img/bg_link.gif);
+    
+    background-repeat: no-repeat;
+    background-size: 70px;
+}   
+.recommend{
+    
+    color: #fff;
+}   
+    
+/* ---------------------- */
+
+/* 정보공개~국방부소개 */
+
+.gnb_nav_list{
+   
+    border-bottom: 1px solid #0354af;
+    padding: 10px 0px 10px;
+    text-align:center;
+
+    
+    
+}
+.gnb_nav_list a{
+    display: inline-block;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 100px;
+    color: #000;
+}
+    
+    
+    
+    
+    
+    
+
+
+

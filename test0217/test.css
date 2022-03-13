@@ -11,6 +11,36 @@ body {}
  #wrap_header .box_head_gnb {text-align: right; background-color: #006ddd;}
  #wrap_header .box_head_gnb a {display: inline-block; border: 1px solid blue; color: #fff;}
 
+
+ /* 최상단 대한민국 국방부 한국판 뉴딜 */
+
+#head-gnb div{
+    
+    display: block;
+    position: relative;
+}
+#title22{
+    float:right;
+}
+#search {
+ display: block;
+ text-align: center;
+}    
+.recommend-search .set{
+    position: relative;;
+    display: inline-block;
+    text-align: right;
+    
+    
+}
+    
+    
+
+
+
+
+
+/* 상단 메뉴(GNB) */
 #menu_gnb {}
 #menu_gnb ul.menu_dep1 {
     float: left;
@@ -25,16 +55,32 @@ body {}
     border: 2px solid red;
 }
 
+/* 상단 메인 사진 */
+#bn-1 img.bn-img{
+    width: 747px;
+    
+}
+
+/* 메인사진 밑 lnb */
+#wrap-lnb li.icon{
+   
+    border: 1px solid red;
+    float: left;
+    position: relative;
+    text-align: center;
+
+}
+
 #menu_gnb ul.menu_dep1:hover ul.menu_dep2 {
     display: block;
 }
 
 #menu_gnb ul.menu_dep2 {
-    position: absolute;
+    position: relative;
     left: 0;
-    top: 50px;
+    top: 100%;
     width: 100%;
-    height: 100px;
+    height: 100px
     border: 1px solid blue;
     background: #fff;
 }

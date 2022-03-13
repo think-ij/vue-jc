@@ -9,6 +9,9 @@
     <!-- CSS -->
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="test.css">
+    <link rel="stylesheet" href="body.css">
+    <link rel="stylesheet" href="menu1.css">
+
 </head>
 
 <body>
@@ -54,18 +57,18 @@
                 </div>
                 <div class="recommend-search">
                     <ul>
-                        <li>
-                            <a>
+                        <li class="set">
+                            <a href="https://www.mnd.go.kr/mndSearch/front/Search.jsp">
                                 국방인사정보체계
                             </a>
                         </li>
-                        <li>
-                            <a>
+                        <li class="set">
+                            <a href="https://www.mnd.go.kr/mndSearch/front/Search.jsp">
                                 가입자격확인서
                             </a>
                         </li>
-                        <li>
-                            <a>
+                        <li class="set">
+                            <a href="https://www.mnd.go.kr/mndSearch/front/Search.jsp">
                                 장병내일준비적금
                             </a>
                         </li>
@@ -95,7 +98,7 @@
                             <h5>정보공개</h5>
                         </a>
                         <br>
-                        <ul class="menu_dep2">>
+                        <ul class="menu_dep2">
                             <li>정보공개제도</li>
                             <li>사전 정보공표</li>
                             <li>업무추진비</li>
@@ -287,8 +290,24 @@
         <div id="box_wrap_body">
 
             <!-- 메인 슬라이드 배너 -->
-            <div id="main-img">
-                <img src=" " alt="슬라이드 사진들 ">
+            <div id="bn-1">
+                <img src="photo.jpg" alt="서욱 국방부장관 점검, 육군 미사일사령부 대비태세 점검 " class="bn-img">
+                <div class="bn-active">
+                    <a href="https://mnd.go.kr/user/newsInUserRecord.action?siteId=mnd&page=2&newsId=I_669&newsSeq=I_12769&command=view&id=mnd_020500000000&findStartDate=&findEndDate=&findType=title&findWord=&findOrganSeq="
+                        target="_blank"></a>
+                    <a href=""></a>
+                    <div class="slide-button1">
+                        <button>
+                            왼쪽
+                        </button>
+                        <button>
+                            정지
+                        </button>
+                        <button>
+                            오른쪽
+                        </button>
+                    </div>
+                </div>
                 <div id="slide bn">
                     <strong>
                         제9회 방위산업발전협의회 및 민군기술협력 성과 발표회 참관
@@ -314,63 +333,77 @@
                             </a>
                         </li>
                     </ul>
-                    <div class="slide-button1">
-                        <button>
-                            왼쪽
-                        </button>
-                        <button>
-                            정지
-                        </button>
-                        <button>
-                            오른쪽
-                        </button>
-                    </div>
+
                 </div>
             </div>
 
             <!-- 하단 퀵 메뉴 -->
-            <div class="box_body_submenu">
-                <div class="img_menu1">
-                    <a title="새창열기">비정규군 보상위원회</a>
-                </div>
-                <div class="img_menu2">
-                    <a title="새창열기">민원신청</a>
-                </div>
-                <div class="img_menu3">
-                    <a title="새창열기">사전정보공표</a>
-                </div>
-                <div class="img_menu4">
-                    <a title="새창열기">국방신고센터</a>
-                </div>
-                <div class="img_menu5">
-                    <a title="새창열기">조직 및 업무안내</a>
-                </div>
-                <div class="img_menu6">
-                    <a title="새창열기">업무분야별 자료</a>
-                </div>
-                <div class="img_menu7">
-                    <a title="새창열기">법령정보</a>
-                </div>
-                <div class="img_menu8">
-                    <a title="새창열기">국방백서</a>
-                </div>
-                <div class="img_menu9">
-                    <a title="새창열기">2022업무보고</a>
-                </div>
-                <div class="img_menu9">
-                    <a title="새창열기">열린장관실</a>
-                </div>
-
+            <div id="wrap-lnb">
+                <ul class="lnb-icon">
+                    <li class="icon">
+                        <a href="https://new.mnd.go.kr/user/indexMain.action?siteId=ncdc" target="_blank" title="새창열기">
+                            비정규군 보상위원회
+                        </a>
+                    </li>
+                    <li class="icon">
+                        <a href="https://www.mnd.go.kr/mbshome/mbs/mnd/subview.jsp?id=mnd_030200000000" target="_blank"
+                            title="새창열기">
+                            민원신청
+                        </a>
+                    </li>
+                    <li class="icon">
+                        <a href="https://www.mnd.go.kr/cop/infoOpening/infoOpeningList.do?handle=1&siteId=mnd&id=mnd_050200000000"
+                            target="_blank" title="새창열기">
+                            사전정보공표
+                        </a>
+                    </li>
+                    <li class="icon">
+                        <a href="https://www.mnd.go.kr/mbshome/mbs/mnd/subview.jsp?id=mnd_030501000000" target="_blank"
+                            title="새창열기">
+                            국방신고센터
+                        </a>
+                    </li>
+                    <li class="icon">
+                        <a href="https://www.mnd.go.kr/cop/dept/deptInfo2.do?siteId=mnd&id=mnd_060501000000"
+                            target="_blank" title="새창열기">
+                            조직 및 업무안내
+                        </a>
+                    </li>
+                    <li class="icon">
+                        <a href="https://www.mnd.go.kr/user/boardList.action?boardId=O_46843&siteId=mnd&id=mnd_050600000000"
+                            target="_blank" title="새창열기">
+                            업무분야별 자료
+                        </a>
+                    </li>
+                    <li class="icon">
+                        <a href="" target="_blank" title="새창열기">
+                            법령정보
+                        </a>
+                    </li>
+                    <li class="icon">
+                        <a href="" target="_blank" title="새창열기">
+                            국방백서
+                        </a>
+                    </li>
+                    <li class="icon">
+                        <a href="" target="_blank" title="새창열기">
+                            2022업무보고
+                        </a>
+                    </li>
+                    <li class="icon">
+                        <a href="" target="_blank" title="새창열기">
+                            열린장관실
+                        </a>
+                    </li>
+                </ul>
             </div>
 
 
 
-            <!--  보도자료,슬라이드 알림창  -->
-            <div id="box_body_latest">
-                <button>
-                    더보기
-                </button>
 
+
+            <!--  보도자료,슬라이드 알림창  -->
+            <div class="desk1">
 
                 <div class="title1">
                     <p>
@@ -386,16 +419,23 @@
                             2022-02-18
                         </span>
                         <p>
-                            국방부는 그간 여러 부서에 산재해 있던 인권 관련기능을 통합하고 기능을 보강하여...
+                            <a
+                                href="https://www.mnd.go.kr/user/newsInUserRecord.action?command=view&newsId=I_669&siteId=mnd&page=1&id=mnd_020500000000&newsSeq=I_12792">
+                                국방부는 그간 여러 부서에 산재해 있던 인권 관련기능을 통합하고 기능을 보강하여
+                            </a>
+
+
                         </p>
                         <ul>
                             <li>
-                                <a>
+                                <a
+                                    href="https://www.mnd.go.kr/user/newsInUserRecord.action?command=view&newsId=I_669&siteId=mnd&page=1&id=mnd_020500000000&newsSeq=I_12791">
                                     서욱 국방부장관,노르웨이 주력전차사업
                                 </a>
                             </li>
                             <li>
-                                <a>
+                                <a
+                                    href="https://www.mnd.go.kr/user/newsInUserRecord.action?command=view&newsId=I_669&siteId=mnd&page=1&id=mnd_020500000000&newsSeq=I_12790">
                                     국립 서울현충원
                                     유품전시관 재개관
                                 </a>
@@ -406,13 +446,13 @@
 
 
 
-                <div class="title1">
+                <div class="title2">
                     <p>
-                        언론보도 바로보기
+                        공지사항
                     </p>
-                    <div class="title1-1">
+                    <div class="title1-2">
                         <a>
-                            청해부대 장병 백신접종
+                            2020년 군인복지기금
                         </a>
 
                         <span>
@@ -420,679 +460,592 @@
                         </span>
 
                         <p>
-                            정해부대 장병대상 백신접종관련 해외에서 임무수행중인...
+                            국가재정법,군인복지기금 자산운용지침에 의거하여 아래 및 붙임과 같이
                         </p>
                         <ul>
                             <li>
                                 <a>
-                                    청와대 김정은 말바꾸나
+                                    장병 인권침해시
                                 </a>
                             </li>
                             <li>
                                 <a>
-                                    공무원 시신소각
+                                    제대군인지원센터
                                 </a>
                             </li>
                         </ul>
                     </div>
                 </div>
+            </div>
 
 
 
 
 
 
-                <!-- box2 -->
-                <div class="title2">
-                    <p>
-                        공지사항
-                    </p>
-                    <div title="title-2">
+
+
+
+            <!-- 카드뉴스 창 -->
+            <div class="box_body_card">
+                <div class="cardnews">
+                    <a>
+                        카드뉴스
+                    </a>
+                    <a>
+                        국방부 장병 내일적금
+                    </a>
+                </div>
+                <a>
+                    최정예 300원전투
+                </a>
+                <div class="video">
+                    <a>
+                        국방영상
+                    </a>
+                    <a>
+                        마음배송 우체통
+                    </a>
+                </div>
+                <a>
+                    2021 서울 유엔 평화유지
+                </a>
+
+            </div>
+
+            <!-- 주요정보 슬라이드배너,전화상담 배너 -->
+            <div id="box_body_slide">
+                <strong>
+                    주요정보 바로가기
+                </strong>
+                <div class="button">
+                    <button class="left">
+                        왼쪽
+                    </button>
+                    <button class="stop">
+                        정지
+                    </button>
+                    <button class="right">
+                        오른쪽
+                    </button>
+                </div>
+
+                <div class="quick-button">
+                    <ul>
+                        <il>
+                            예비군
+                        </il>
+                        <il>
+                            군공항 이전사업
+                        </il>
+                        <il>
+                            유해발굴 감식단
+                        </il>
+                        <il>
+                            청령옴부즈만
+                        </il>
+                        <il>
+                            국립 서울현충원
+                        </il>
+                        <il>
+                            무공훈장 찾기
+                        </il>
+                        <il>
+                            가습기살균제 군 피해지원
+                        </il>
+                        <il>
+                            9.19 군사합의
+                        </il>
+                        <il>
+                            상등병 특별진급
+                        </il>
+                        <il>
+                            국방개혁2.0
+                        </il>
+                        <il>
+                            국방헬프콜
+                        </il>
+                        <il>
+                            국방공공 데이터포털
+                        </il>
+                        <il>
+                            군인권 지키미
+                        </il>
+
+                    </ul>
+                </div>
+
+
+
+                <!-- 링크바로가기 , 전화상담 배너 -->
+                <div class=box_bn">
+                    <div clas="link-quick">
                         <a>
-                            장병 인권침해시 상담
+                            페이스북
                         </a>
-                        <span>
-                            2022-02-18
-                        </span>
+                        <a>
+                            트위터
+                        </a>
+                        <a>
+                            유튜브
+                        </a>
+                        <a>
+                            인스타그램
+                        </a>
+                        <a>
+                            네이버
+                        </a>
+                    </div>
+                    <div class="call-img">
                         <p>
-                            ....
+                            전화상담 1577-9090(유료)
                         </p>
+                        <span>
+                            팩스번호
+                        </span>
+                        <span>
+                            02-748-6895
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- body-bottom -->
+            <div class="quick-menu">
+                <div class="menu1">
+                    <strong>
+                        국방문화체험
+                    </strong>
+                    <a>
+                        go
+                    </a>
+                    <div class="menu2">
                         <ul>
                             <li>
-                                <a>
-                                    제대군인지원센터 다시웃는 제대군인 2022년
-                                </a>
-
+                                국방부 안보체험행사
                             </li>
 
                             <li>
-                                <a>
-                                    2022년 해군,해병대 예비역 간부 진급 선발
-                                </a>
+                                육군 안보체험행사
+                            </li>
+                            <li>
+                                계룡대 안보견학
+                            </li>
+                            <li>
+                                해군 견학신청
+                            </li>
+                            <li>
+                                해군 가상함정 체험관
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>
+                                해병대캠프
+                            </li>
+                            <li>
+                                공군 부대견학
+                            </li>
+                            <li>
+                                국립서울현충원
+                            </li>
+                            <li>
+                                전쟁기념관
+                            </li>
+                            <li>
+                                전사자 유해발굴 현장체험
                             </li>
                         </ul>
                     </div>
-                    <div>
 
-                        <div class="title2">
-                            <p>
-                                입찰
-                            </p>
-                            <div class="title-2">
+                </div>
+                <div class="menu1">
+                    <strong>
+                        입대정보/직업군인되기
+                    </strong>
+                    <a>
+                        go
+                    </a>
+                    <div class="menu2">
+                        <ul>
+                            <li>
+                                병역이행 안내
+                            </li>
+                            <li>
+                                복무제도
+                            </li>
+                            <li>
+                                병역판정검사
+                            </li>
+                            <li>
+                                입영 준비사항
+                            </li>
+                            <li>
+                                육군복무안내
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>
+                                육군모집
+                            </li>
+                            <li>
+                                해군모집
+                            </li>
+                            <li>
+                                공군모집
+                            </li>
+                            <li>
+                                해병대모집
+                            </li>
+                            <li>
+                                군지원(모병)안내
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="menu1">
+                    <strong>
+                        전역자지원
+                    </strong>
+                    <a>
+                        go
+                    </a>
+                    <div class="menu2">
+                        <ul>
+                            <li>
+                                국방전직교육원
+                            </li>
+                            <li>
+                                육군 취업지원센터
+                            </li>
+                            <li>
+                                해군 취업지원광장
+                            </li>
+                            <li>
+                                공군 취업정보 광장
+                            </li>
+                            <li>
+                                국가보훈처 제대군인지원센터
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>
+                                군전역일자/군번조회
+                            </li>
+                            <li>
+                                동원/예비군 훈련
+                            </li>
+                            <li>
+                                병적증명서 발급신청
+                            </li>
+                            <li>
+                                군인연금/군인재해보상
+                            </li>
+                            <li>
+                                제대군인 복지
+                            </li>
+                            <li>
+                                59년퇴직급여금신청
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="menu1">
+                    <strong>
+                        입대장병소식/군인가족지원
+                    </strong>
+                    <a>
+                        go
+                    </a>
+                    <div class="menu2">
+                        <ul>
+                            <li>
+                                입대장병 편지쓰기
+                            </li>
+                            <li>
+                                신병 부대배치
+                            </li>
+                            <li>
+                                신병 사진찾기
+                            </li>
+                            <li>
+                                호국장학재단
+                            </li>
+                            <li>
+                                군인공제회
+                            </li>
+                            <li>
+                                전사자 유해소재 제보
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>
+                                국립현충원 사이버참배
+                            </li>
+                            <li>
+                                국립묘지 안장신청
+                            </li>
+                            <li>
+                                전사/순직자 유가족
+                            </li>
+                            <li>
+                                찾기
+                            </li>
+                            <li>
+                                군가족 힐링캠프
+                            </li>
+                            <li>
+                                중앙전공사상심사위원회
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="slide-link">
+                <div class="slide-button3">
+                    <button>
+                        왼쪽
+                    </button>
+                    <button>
+                        정지
+                    </button>
+                    <button>
+                        오른쪽
+                    </button>
+                </div>
+                <ul>
+                    <li>
+                        정부24
+                    </li>
+                    <li>
+                        어려운 공공언어 국민제보
+                    </li>
+                    <li>
+                        군사망사고
+                    </li>
+                    <li>
+                        적극행정 울림
+                    </li>
+                    <li>
+                        부패공인신고
+                    </li>
+                    <li>
+                        공유누리
+                    </li>
+                    <li>
+                        국민참여플랫폼
+                    </li>
+                    <li>
+                        군복무크레딧
+                    </li>
+                    <li>
+                        안전신문고
+                    </li>
+                    <li>
+                        예산낭비신고
+                    </li>
+                    <li>
+                        국민추천제
+                    </li>
+                    <li>
+                        국민생각함
+                    </li>
+                    <li>
+                        개인정보분쟁조정위원회
+                    </li>
+                    <li>
+                        병역명문가
+                    </li>
+                    <li>
+                        장병사랑재능기부사업
+                    </li>
+                    <li>
+                        찾기쉬운생활법령
+                    </li>
+                    <li>
+                        경제외교 활용포털
+                    </li>
+                    <li>
+                        국방TV
+                    </li>
+                    <li>
+                        정책브리핑
+                    </li>
+                    <li>
+                        익명신고
+                    </li>
+                    <li>
+                        e나라도움
+                    </li>
+                    <li>
+                        청탁금지법
+                    </li>
+                    <li>
+                        안전한TV
+                    </li>
+                </ul>
+            </div>
 
-                                <a>
-                                    00부대 건선거 해수 배수펌프 제품선정
+            <!-- 슬라이드 링크 -->
+            <div id="footer">
+                <div id="go">
+                    <button>
+                        목록가기
+                    </button>
+                    <ul>
+                        <li>
+                            군 관련기관
+                        </li>
+                        <li>
+                            본부
+                        </li>
+                        <li>
+                            육군
+                        </li>
+                        <li>
+                            해군
+                        </li>
+                        <li>
+                            공군
+                        </li>
+                        <li>
+                            해병대
+                        </li>
+                        <li>
+                            현충원
+                        </li>
+                        <li>
+                            홍보원
+                        </li>
+                        <li>
+                            사업청
+                        </li>
+                        <li>
+                            병무청
+                        </li>
+                        <li>
+                            전쟁기념사업회
+                        </li>
+                        <li>
+                            국방전직교육원
+                        </li>
+                    </ul>
+                </div>
+
+
+
+                <!-- footer -->
+                <div id="wrap-footer">
+
+                    <div class="box-footer">
+                        <ul class="first">
+                            <li>
+                                <a href="https://www.mnd.go.kr/mbshome/mbs/mnd/subview.jsp?id=mnd_070200000000"
+                                    class="fr">
+                                    개인정보처리방침
                                 </a>
-                                <span>
-                                    2022-02-18
-                                </span>
-                                <p>
-                                    00부대 건선거 해수 배수펌프 제품선정 심의 공고 1. 사업명: 00부대 건선거 노후 지원설비 개선
-                                </p>
-                                <ul>
-                                    <li>
-                                        <a>
-                                            2021년도 민군기술협력 전력지원체계개발사업
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a>
-                                            국방대학교
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
-                            <div>
+                            </li>
+                            <li>
+                                <a href="https://www.mnd.go.kr/cop/dept/deptInfo2.do?siteId=mnd&id=mnd_060501000000">
+                                    조직 및 직원안내
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.mnd.go.kr/mbshome/mbs/mnd/subview.jsp?id=mnd_070400000000">
+                                    뷰어내려받기
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.mnd.go.kr/mbshome/mbs/mnd/subview.jsp?id=mnd_070300000000">
+                                    저작권정책
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.mnd.go.kr/mbshome/mbs/mnd/subview.jsp?id=mnd_060700000000">
+                                    오시는길
+                                </a>
+                            </li>
+                            <li>
+                                <a
+                                    href="https://www.mnd.go.kr/user/boardList.action?boardId=O_46535&siteId=mnd&id=mnd_070500000000">
+                                    누리집개선제안
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.mnd.go.kr/mbshome/mbs/mnd/subview.jsp?id=mnd_040602000000">
+                                    소식지신청
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.mnd.go.kr/mbshome/mbs/mnd/subview.jsp?id=mnd_040602000000">
+                                    이용안내
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.mnd.go.kr/mbshome/mbs/mnd/subview.jsp?id=mnd_070100000000">
+                                    정보연결(RSS)서비스
+                                </a>
+                            </li>
+                        </ul>
+                        <div class="address">
 
-                                <div class="title2">
-                                    <p>
-                                        채용
-                                    </p>
-                                    <div class="title-2">
-                                        <a>
-                                            국방 홍보원...
-                                        </a>
-                                        <span>
-                                            2022-02-18
-                                        </span>
-                                        <p>
-                                            국방홍보 전문기관이 국방홍보원에서 일할 창의적이고 역량있는 직원을 공고와 같이 공개 모집합니다
-                                        </p>
+                            <b>
+                                [04383] 서울특별시 용산구 이태원로 22
+                            </b>
+                            <span>
+                                전화상담 1577-9000(유료)
+                            </span>
+                        </div>
 
-                                        <ul>
-                                            <li>
-                                                <a>
-                                                    국방홍보원 공무원 경력경쟁채용 공고방송무대9급
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a>
-                                                    국방대학교 한시임기제군무원전산7호
-                                                    행정8호 채용
-                                                </a>
-                                            </li>
-                                        </ul>
-                                    </div>
+                        <p>
+                            이 누리집에 쓰인 전자우편 주소가 자동 수집되는 것을 거부하며,이를 위반하면 정보통신망법에 의해 처벌됨을 유념하시기 바랍니다.
+                        </p>
+                    </div>
+                    <div class="siteurl">
+                        <select name="url" id="url">
+                            <option value="#">
+                                군 관련 기관
+                            </option>
+                            <option value="https://www.jcs.mil.kr/mbshome/mbs/jcs2/index.jsp">
+                                합동참모본부
+                            </option>
+                            <option value="https://www.army.mil.kr/webapp/user/indexMain.do?siteId=army">
+                                대한민국육군
+                            </option>
+                            <option value="https://www.navy.mil.kr/mbshome/mbs/navy/index.do">
+                                대한민국해군
+                            </option>
+                            <option value="https://rokaf.airforce.mil.kr/airforce/index.do">
+                                대한민국공군
+                            </option>
+                            <option value="https://www.rokmc.mil.kr:10005/index.do">
+                                대한민국 해병대
+                            </option>
+                            <option value="https://www.snmb.mil.kr/mbshome/mbs/snmb/">
+                                국립서울현충원
+                            </option>
+                            <option value="https://www.mma.go.kr/index.do">
+                                병무청
+                            </option>
 
+                            <input type="button" value="▷" title="새창 열기" class="url-go" onclick>
 
+                        </select>
 
-                                    <div class="title2">
-                                        <p>
-                                            고시.공고
-                                        </p>
-                                        <div class="title-2">
-                                            <a>
-                                                국방부 대형공사
-                                            </a>
-                                            <span>
-                                                2022-02-18
-                                            </span>
-                                            <p>
-                                                국방부 공고 제2022-65호 ｢국가를 당사자로 하는 계약에 관한 법률 시행령｣ 제80조 제3항 및 제99조 제3항의 규정에 따라
-                                            </p>
-                                            <ul>
-                                                <li>
-                                                    <a>
-                                                        국방부고시 제2022-8호
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <a>
-                                                        국방부고시 제2022-7호
-                                                    </a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
+                    </div>
 
 
-
-
-
-                                <!-- 카드뉴스 창 -->
-                                <div class="box_body_card">
-                                    <div class="cardnews">
-                                        <a>
-                                            카드뉴스
-                                        </a>
-                                        <a>
-                                            국방부 장병 내일적금
-                                        </a>
-                                    </div>
-                                    <a>
-                                        최정예 300원전투
-                                    </a>
-                                    <div class="video">
-                                        <a>
-                                            국방영상
-                                        </a>
-                                        <a>
-                                            마음배송 우체통
-                                        </a>
-                                    </div>
-                                    <a>
-                                        2021 서울 유엔 평화유지
-                                    </a>
-
-                                </div>
-
-                                <!-- 주요정보 슬라이드배너,전화상담 배너 -->
-                                <div id="box_body_slide">
-                                    <strong>
-                                        주요정보 바로가기
-                                    </strong>
-                                    <div class="button">
-                                        <button class="left">
-                                            왼쪽
-                                        </button>
-                                        <button class="stop">
-                                            정지
-                                        </button>
-                                        <button class="right">
-                                            오른쪽
-                                        </button>
-                                    </div>
-
-                                    <div class="quick-button">
-                                        <ul>
-                                            <il>
-                                                예비군
-                                            </il>
-                                            <il>
-                                                군공항 이전사업
-                                            </il>
-                                            <il>
-                                                유해발굴 감식단
-                                            </il>
-                                            <il>
-                                                청령옴부즈만
-                                            </il>
-                                            <il>
-                                                국립 서울현충원
-                                            </il>
-                                            <il>
-                                                무공훈장 찾기
-                                            </il>
-                                            <il>
-                                                가습기살균제 군 피해지원
-                                            </il>
-                                            <il>
-                                                9.19 군사합의
-                                            </il>
-                                            <il>
-                                                상등병 특별진급
-                                            </il>
-                                            <il>
-                                                국방개혁2.0
-                                            </il>
-                                            <il>
-                                                국방헬프콜
-                                            </il>
-                                            <il>
-                                                국방공공 데이터포털
-                                            </il>
-                                            <il>
-                                                군인권 지키미
-                                            </il>
-
-                                        </ul>
-                                    </div>
+                </div>
 
 
 
-                                    <!-- 링크바로가기 , 전화상담 배너 -->
-                                    <div class=box_bn">
-                                        <div clas="link-quick">
-                                            <a>
-                                                페이스북
-                                            </a>
-                                            <a>
-                                                트위터
-                                            </a>
-                                            <a>
-                                                유튜브
-                                            </a>
-                                            <a>
-                                                인스타그램
-                                            </a>
-                                            <a>
-                                                네이버
-                                            </a>
-                                        </div>
-                                        <div class="call-img">
-                                            <p>
-                                                전화상담 1577-9090(유료)
-                                            </p>
-                                            <span>
-                                                팩스번호
-                                            </span>
-                                            <span>
-                                                02-748-6895
-                                            </span>
-                                        </div>
-                                    </div>
-                                </div>
-
-
-                                <!-- body-bottom -->
-                                <div class="quick-menu">
-                                    <div class="menu1">
-                                        <strong>
-                                            국방문화체험
-                                        </strong>
-                                        <a>
-                                            go
-                                        </a>
-                                        <div class="menu2">
-                                            <ul>
-                                                <li>
-                                                    국방부 안보체험행사
-                                                </li>
-
-                                                <li>
-                                                    육군 안보체험행사
-                                                </li>
-                                                <li>
-                                                    계룡대 안보견학
-                                                </li>
-                                                <li>
-                                                    해군 견학신청
-                                                </li>
-                                                <li>
-                                                    해군 가상함정 체험관
-                                                </li>
-                                            </ul>
-                                            <ul>
-                                                <li>
-                                                    해병대캠프
-                                                </li>
-                                                <li>
-                                                    공군 부대견학
-                                                </li>
-                                                <li>
-                                                    국립서울현충원
-                                                </li>
-                                                <li>
-                                                    전쟁기념관
-                                                </li>
-                                                <li>
-                                                    전사자 유해발굴 현장체험
-                                                </li>
-                                            </ul>
-                                        </div>
-
-                                    </div>
-                                    <div class="menu1">
-                                        <strong>
-                                            입대정보/직업군인되기
-                                        </strong>
-                                        <a>
-                                            go
-                                        </a>
-                                        <div class="menu2">
-                                            <ul>
-                                                <li>
-                                                    병역이행 안내
-                                                </li>
-                                                <li>
-                                                    복무제도
-                                                </li>
-                                                <li>
-                                                    병역판정검사
-                                                </li>
-                                                <li>
-                                                    입영 준비사항
-                                                </li>
-                                                <li>
-                                                    육군복무안내
-                                                </li>
-                                            </ul>
-                                            <ul>
-                                                <li>
-                                                    육군모집
-                                                </li>
-                                                <li>
-                                                    해군모집
-                                                </li>
-                                                <li>
-                                                    공군모집
-                                                </li>
-                                                <li>
-                                                    해병대모집
-                                                </li>
-                                                <li>
-                                                    군지원(모병)안내
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                    <div class="menu1">
-                                        <strong>
-                                            전역자지원
-                                        </strong>
-                                        <a>
-                                            go
-                                        </a>
-                                        <div class="menu2">
-                                            <ul>
-                                                <li>
-                                                    국방전직교육원
-                                                </li>
-                                                <li>
-                                                    육군 취업지원센터
-                                                </li>
-                                                <li>
-                                                    해군 취업지원광장
-                                                </li>
-                                                <li>
-                                                    공군 취업정보 광장
-                                                </li>
-                                                <li>
-                                                    국가보훈처 제대군인지원센터
-                                                </li>
-                                            </ul>
-                                            <ul>
-                                                <li>
-                                                    군전역일자/군번조회
-                                                </li>
-                                                <li>
-                                                    동원/예비군 훈련
-                                                </li>
-                                                <li>
-                                                    병적증명서 발급신청
-                                                </li>
-                                                <li>
-                                                    군인연금/군인재해보상
-                                                </li>
-                                                <li>
-                                                    제대군인 복지
-                                                </li>
-                                                <li>
-                                                    59년퇴직급여금신청
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                    <div class="menu1">
-                                        <strong>
-                                            입대장병소식/군인가족지원
-                                        </strong>
-                                        <a>
-                                            go
-                                        </a>
-                                        <div class="menu2">
-                                            <ul>
-                                                <li>
-                                                    입대장병 편지쓰기
-                                                </li>
-                                                <li>
-                                                    신병 부대배치
-                                                </li>
-                                                <li>
-                                                    신병 사진찾기
-                                                </li>
-                                                <li>
-                                                    호국장학재단
-                                                </li>
-                                                <li>
-                                                    군인공제회
-                                                </li>
-                                                <li>
-                                                    전사자 유해소재 제보
-                                                </li>
-                                            </ul>
-                                            <ul>
-                                                <li>
-                                                    국립현충원 사이버참배
-                                                </li>
-                                                <li>
-                                                    국립묘지 안장신청
-                                                </li>
-                                                <li>
-                                                    전사/순직자 유가족
-                                                </li>
-                                                <li>
-                                                    찾기
-                                                </li>
-                                                <li>
-                                                    군가족 힐링캠프
-                                                </li>
-                                                <li>
-                                                    중앙전공사상심사위원회
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="slide-link">
-                                    <div class="slide-button3">
-                                        <button>
-                                            왼쪽
-                                        </button>
-                                        <button>
-                                            정지
-                                        </button>
-                                        <button>
-                                            오른쪽
-                                        </button>
-                                    </div>
-                                    <ul>
-                                        <li>
-                                            정부24
-                                        </li>
-                                        <li>
-                                            어려운 공공언어 국민제보
-                                        </li>
-                                        <li>
-                                            군사망사고
-                                        </li>
-                                        <li>
-                                            적극행정 울림
-                                        </li>
-                                        <li>
-                                            부패공인신고
-                                        </li>
-                                        <li>
-                                            공유누리
-                                        </li>
-                                        <li>
-                                            국민참여플랫폼
-                                        </li>
-                                        <li>
-                                            군복무크레딧
-                                        </li>
-                                        <li>
-                                            안전신문고
-                                        </li>
-                                        <li>
-                                            예산낭비신고
-                                        </li>
-                                        <li>
-                                            국민추천제
-                                        </li>
-                                        <li>
-                                            국민생각함
-                                        </li>
-                                        <li>
-                                            개인정보분쟁조정위원회
-                                        </li>
-                                        <li>
-                                            병역명문가
-                                        </li>
-                                        <li>
-                                            장병사랑재능기부사업
-                                        </li>
-                                        <li>
-                                            찾기쉬운생활법령
-                                        </li>
-                                        <li>
-                                            경제외교 활용포털
-                                        </li>
-                                        <li>
-                                            국방TV
-                                        </li>
-                                        <li>
-                                            정책브리핑
-                                        </li>
-                                        <li>
-                                            익명신고
-                                        </li>
-                                        <li>
-                                            e나라도움
-                                        </li>
-                                        <li>
-                                            청탁금지법
-                                        </li>
-                                        <li>
-                                            안전한TV
-                                        </li>
-                                    </ul>
-                                </div>
-
-                                <!-- 슬라이드 링크 -->
-                                <div id="footer">
-                                    <div id="go">
-                                        <button>
-                                            목록가기
-                                        </button>
-                                        <ul>
-                                            <li>
-                                                군 관련기관
-                                            </li>
-                                            <li>
-                                                본부
-                                            </li>
-                                            <li>
-                                                육군
-                                            </li>
-                                            <li>
-                                                해군
-                                            </li>
-                                            <li>
-                                                공군
-                                            </li>
-                                            <li>
-                                                해병대
-                                            </li>
-                                            <li>
-                                                현충원
-                                            </li>
-                                            <li>
-                                                홍보원
-                                            </li>
-                                            <li>
-                                                사업청
-                                            </li>
-                                            <li>
-                                                병무청
-                                            </li>
-                                            <li>
-                                                전쟁기념사업회
-                                            </li>
-                                            <li>
-                                                국방전직교육원
-                                            </li>
-                                        </ul>
-                                    </div>
-
-                                    <!-- footer -->
-                                    <div class="guide">
-                                        <ul>
-                                            <li>
-                                                <a>
-                                                    개인정보처리방침
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a>
-                                                    조직 및 직원안내
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a>
-                                                    뷰어내려받기
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a>
-                                                    저작권정책
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a>
-                                                    오시는길
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a>
-                                                    누리집개선제안
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a>
-                                                    소식지신청
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a>
-                                                    이용안내
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a>
-                                                    정보연결(RSS)서비스
-                                                </a>
-                                            </li>
-                                        </ul>
-                                        <span>
-                                            [04383] 서울특별시 용산구 이태원로 22 전화상담 1577-9000(유료)
-                                        </span>
-                                        <p>
-                                            이 누리집에 쓰인 전자우편 주소가 자동 수집되는 것을 거부하며,이를 위반하면 정보통신망법에 의해 처벌됨을 유념하시기 바랍니다.
-                                        </p>
-                                    </div>
-                                </div>
-
-
-
-
-
-                                <!-- 위로가기 버튼 -->
-                                <button id="button">
-                                    위로가기
-                                </button>
-
-
-
-    </div>
-
-
-
-
-
-
-
+                <div id="top">
+                    <a href="#wrap_header">
+                        <button>
+                            위로가기
+                        </button>
+                    </a>
+                </div>
 
 
 

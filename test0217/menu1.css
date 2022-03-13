@@ -1,0 +1,145 @@
+*{
+    text-decoration: none;
+    
+}
+
+/* 중앙 콘텐츠  */
+
+.wrapper-con{
+    border: 1px solid red;
+}
+
+.button{
+    position: relative;
+    float: right;
+}
+
+.wrap-container{
+    border: 1px solid red;
+    
+}
+.wrap-container li{
+    color: #2e5a4e;
+    font-size: 15px;
+    padding: 10px;
+    margin: 10px;
+}
+.wrap-container h2{
+    font-size: 30px;
+}
+.wrap-container .span1 {
+    font-size: 20px;
+    display: block;
+    padding: 10px;
+    margin: 10px;
+}
+.span2{
+    color:#117ef2 ;
+}
+
+
+
+
+
+
+
+/* snb 사이드바*/
+
+.sidebar{
+    border: 1px solid red;
+    position: relative;
+    float: left;
+}
+
+
+
+
+
+.sidebar-1 div.sidebar-2{
+    
+    display: none;
+}
+.sidebar-1:hover div.sidebar-2{
+    
+    display: block;
+}
+.sidebar-1:hover{
+    border: 1px solid red;
+    display: block;
+    position:relative;
+    background-color: rgb(104, 99, 99);
+    
+}
+
+.slide-nv a{
+    display: block;
+    position: relative;
+    float: left;
+    
+}
+.slide-nv button{
+    position: relative;
+    left: 800px;
+    padding: 10px;
+    
+}
+
+    
+    
+    
+    
+    /*하단 설문조사  */
+
+.opinion{
+    position: relative;
+    left: 200px;
+}
+
+
+/* footer 최하단 */
+#wrap-footer {
+    position: relative;
+    float: left;
+    border: 1px solid red;
+    background-color: #333333;
+    display: inline;
+}
+.box-footer ul li a{
+    color:#9daccf;
+    
+}
+.box-footer .fr{
+   color: #3db4f9;
+   
+}
+
+.first ul li{
+    position: relative;
+    
+}
+    
+    
+    
+
+
+.address {
+    display: block;
+    position: relative;
+}
+    
+   
+.address span{
+    color: #ff9c00;
+}
+
+#url .url-go{
+   
+  
+}
+
+/* 위로가기 버튼 */
+#top a{
+    border: 1px solid red;
+    position: sticky;
+    
+}
