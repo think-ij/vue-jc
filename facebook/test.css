@@ -1,0 +1,35 @@
+.wrap_box{
+    border: 1px solid black;
+    height: 2000px;
+}
+
+.box1{
+    background: red;
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    top: 50%;
+    margin-top: 250px;
+    /* margin-top: 750px; */
+    
+}
+
+#align {
+    height: 600px; 
+    border: 1px solid green;
+    vertical-align: middle;
+}
+#align::after {
+    display: inline-block; 
+    width: 0px; 
+    height: 600px; 
+    content:''; 
+    vertical-align: middle;
+}
+#align * {
+     vertical-align: middle;
+     display: inline-block;}
+.box01 {
+     width: 100px;
+     height: 100px; 
+     background: red;}

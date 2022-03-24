@@ -1,5 +1,9 @@
-/* 슬라이드 사진/뉴스 */
 
+
+
+
+
+    /* 슬라이드 사진/뉴스 */
 .visual{
     display: flex;
     padding: 20px;
@@ -344,7 +348,262 @@
 /* ----------------------------------------- */
 /* 카드뉴스 */
 
+.wrap_card_news{
+    border: 1px solid #d2d2d2;
+    display: flex;
+    justify-content: space-between;
     
+}
+.wrap_card_news > li{
+    padding: 20px;
+    text-align: center;
+}    
+.wrap_card_news :not(li:last-child) {
+    border-right:1px solid #d2d2d2;
+} 
+.wrap_card_news > li > a > p{
+    color: #434343;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.wrap_card_news > li > a > img{
+    width: 200px;
+    height: 200px;
+    margin-top: 10px;
+    margin-left: 20px
+}
+    
+   
+    
+.wrap_card_news > li > a > h4{
+    display: inline-block;
+    position: absolute;
+    background-color: #da5504;
+    font-weight: bold;
+    font-size: 11px;
+    padding: 10px;
+    color: #fff;
+    
+}
+    
+    
+.wrap_card_news > li > a > h4::after{
+    content: " ";
+    display: block;
+    background: url(../test_web/img/bg_card_under.png);
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    left: 0;
+    top: 30px;
+}
+.wrap_card_news > li > a > h4::before{
+    content: " ";
+    display: block;
+    background: url(../test_web/img/bg_card.png);
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    right: -10px;
+    top: 1px;
+}   
+   
+/* ------------------------------------ */
+/* 주요정보 바로가기 / 배너 */
+.wrap_bn{
+    display:flex;
+}
+
+.wrap_quick_btn{
+    border: 1px solid #d2d2d2;
+    display: block;
+
+}
+    
+.wrap_btn{
+    
+    border-bottom: 8px solid #f3f3f3;
+    display: flex;
+    padding: 10px 0px 15px 0px;
+    font-size: 16px;
+    font-weight: bold;
+    justify-content: space-between;
+}
+
+    
+
+    
+.bn_btn_prev{
+    background: url(../test_web/img/btn_rolling02_cont.gif);
+    background-position: -1px;
+    text-indent: -3000px;
+    width: 30px;
+    height: 30px;
+}    
+.bn_btn_stop{
+    background: url(../test_web/img/btn_rolling02_cont.gif);
+    background-position: -33px;
+    text-indent: -3000px;
+    width: 30px;
+    height: 30px;
+}
+.bn_btn_next{
+    background: url(../test_web/img/btn_rolling02_cont.gif);
+    background-position: -92px;
+    text-indent: -3000px;
+    width: 30px;
+    height: 30px;
+}
+    
+
+.wrap_quick{
+    display: flex;
+}    
+
+
+
+    
+
+
+
+
+
+
+
+.bn_sns{
+    border: 1px solid #d2d2d2;
+    margin-left: 30px;
+    width: 700px;
+    display: block;
+}
+.sns_link{
+    background: url(../test_web/img/bg_sns_list.gif);
+    display: inline-block;
+    width: 100%;
+    height: 90px;
+    text-align: center;
+}
+.box_link {
+    display: inline-block;
+    margin-top: 20px;
+}
+
+    
+.sns_link > ul > li{
+    display: inline-block;
+    text-indent: -3000px;
+}
+
+.sns_link > ul > li > a{
+    display: block;
+    width: 36px;
+    height: 36px;
+}
+
+.sns_icon_01{
+    background: url(../test_web/img/btn_sns.png);
+    background-position: -5px;
+}    
+.sns_icon_02{
+    background: url(../test_web/img/btn_sns.png);
+    background-position: -41px;
+}    
+.sns_icon_03{
+    background: url(../test_web/img/btn_sns.png);
+    background-position: -77px;
+}    
+.sns_icon_04{
+    background: url(../test_web/img/btn_sns.png);
+    background-position: -223px;
+}    
+.sns_icon_05{
+    background: url(../test_web/img/btn_sns.png);
+    background-position: -150px;
+}    
+    
+
+
+
+
+
+.box_call > h4{
+    font-size: 17px;
+}
+.box_call {
+    margin-top: 10px;
+}
+.box_call > p > span {
+    font-size: 14px;
+}
+.box_call > p{
+    margin-top: 10px;
+}
+    
+.sns_call{
+    display: inline-block;
+    background: url(../test_web/img/bg_help.gif);
+    color: #fff;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 90px;
+    text-align: center;
+}
+.fax{
+    margin-right: 20px;
+    color: #afe8ff;
+    
+}
+
+
+
+/* --------------------------------------- */
+/* 국방문화체험 ~ 입대장병소식/군인가족지원 */
+
+.wrap_link_go{
+    margin: 20px 0px 20px;
+}
+.box_link_go{
+    border: 5px solid #dadada;
+    display: flex;
+    background: url(../test_web/img/bg_box_quick.png);
+    justify-content: space-between;
+    
+}
+    
+.box_link_go > :not(div:last-child){
+    border-right: 1px solid #d2d2d2;
+}
+
+.wrap_box_link{
+    padding: 20px;
+}
+.wrap_box_link > ul > li > a{
+    color: #333;
+    font-size: 13px;
+}    
+.wrap_box_link > h4{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    border-bottom:1px solid #d2d2d2;
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+    
+    
+    
+.wrap_box_link > ul{
+    display: inline-block;
+}
+.last_line{
+    margin-left: 10px;
+}    
+    
+    
+
+
 
 
     

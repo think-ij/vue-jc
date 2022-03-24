@@ -1,0 +1,29 @@
+.wrap_foot{
+    border: 1px solid black;
+    display: block;
+    padding: 30px 130px 30px 130px;
+    font-size: 13px;
+    line-height: 19px;
+    color: #8a8d91;
+}
+    
+.lang > li > a,
+.info > li > a{
+    color: #8a8d91;
+}    
+    
+.lang > li{
+    display: inline;
+}
+.info > li{
+    display: inline;
+}
+.under_line{
+    border-bottom: 1px solid #8a8d91;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+
+    
+    

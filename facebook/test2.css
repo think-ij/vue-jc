@@ -1,0 +1,19 @@
+.box1{
+   background: green;
+   height: 100px;
+   width: 100px;
+   float: left;
+}
+.box2{
+    background: red;
+    height: 100px;
+    width: 100px;
+    float: left;
+}
+.wrap_box{
+    position: absolute;
+    display: block;
+    border: 10px solid rgb(125, 17, 214);
+    box-sizing: border-box;
+    overflow: hidden;
+}
