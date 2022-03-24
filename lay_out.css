@@ -1,0 +1,40 @@
+#wrap{
+    border: 1px solid black;
+    box-sizing: border-box;
+    font-size: 20px;
+    width: 553px;
+    
+}
+.head{
+    border-bottom: 1px solid black;
+}
+    
+.body_box{
+    
+}
+.snb{
+    border-right: 1px solid black;
+    float: left;
+    width: 100px;
+    
+}
+.article{
+    border-left: 1px solid black;
+    float: left;
+    text-align: left;
+    width: 450px;
+    margin-left: -1px;
+    
+}
+.footer{
+    border-top: 1px solid black;
+    clear: both;
+    text-align: center;
+}
+.info > li{
+    display: inline;
+}
+    
+
+
+
