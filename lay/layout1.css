@@ -1,0 +1,32 @@
+#wrap{
+    border: 1px solid black;
+    width: 1000px;
+    box-sizing: border-box;
+    
+}
+.header{
+    border-bottom:1px solid black;
+    
+    height: 50px;
+}
+.body > div{
+    height: 400px;
+}
+.article1{
+    float: left;
+    border-right: 1px solid black;
+    width: 499px;
+    margin-right: -1px;
+    
+}
+.article2{
+    float: right;
+    width: 499px;
+    
+}
+.foot{
+    border-top: 1px solid black;
+    height: 50px;
+    clear: both;
+}
+

@@ -1,0 +1,40 @@
+#wrap{
+    border: 1px solid black;
+    width: 1000px;
+    box-sizing: border-box;
+    
+}
+.header{
+    border-bottom:1px solid black;
+    height: 100px;
+    
+}
+
+.h1{
+    float: left;
+    border-right: 1px solid black;
+    width: 499px;
+    height: 101px;
+}
+.h2{
+    float: left;
+    height: 10px;
+}    
+    
+    
+    
+
+
+.body > div{
+    height: 200px;
+    clear: both;
+}
+
+    
+    
+
+.foot{
+    border-top: 1px solid black;
+    height: 100px;
+}
+   

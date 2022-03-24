@@ -1,0 +1,29 @@
+#wrap{
+    border: 1px solid black;
+    width: 1000px;
+}
+   
+.header {
+    height: 50px;
+    border-bottom: 1px solid black;
+}
+.body{
+    height: 500px;
+}  
+.snb{
+    float: left;
+    height: 500px;
+    width: 300px;
+    border-right: 1px solid black;
+    
+}
+.arti{
+    float: left;
+    height: 500px;
+    width: 699px;
+}
+.article1{
+    border-bottom: 1px solid black;
+    height: 250px;
+    margin-top: -1px;
+}
