@@ -7,16 +7,19 @@
 .header{
     border-bottom:1px solid black;
     height: 100px;
+    content: "";
+    display: block;
+    clear: both;
     
 }
 
-.h1{
+.gnb_01{
     float: left;
     border-right: 1px solid black;
     width: 499px;
     height: 101px;
 }
-.h2{
+.gnb_02{
     float: left;
     height: 10px;
 }    
@@ -25,7 +28,7 @@
     
 
 
-.body > div{
+.container > div{
     height: 200px;
     clear: both;
 }

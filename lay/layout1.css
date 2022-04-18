@@ -9,19 +9,28 @@
     
     height: 50px;
 }
-.body > div{
+.container > div{
     height: 400px;
+    content: "";
+    display: inline-block;
+    clear: both;
+    
 }
+
 .article1{
     float: left;
-    border-right: 1px solid black;
-    width: 499px;
-    margin-right: -1px;
+    border: 1px solid black;
+    width: 490px;
+    vertical-align: top;
+    
+    
     
 }
 .article2{
     float: right;
-    width: 499px;
+    width: 490px;
+    border: 1px solid black;
+    
     
 }
 .foot{

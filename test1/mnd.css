@@ -1,0 +1,337 @@
+*{
+    box-sizing: border-box;
+    color: #000;
+}
+#wrap{
+    width: 100%;
+    height: auto;
+
+}
+/* 최상단 파란줄 */
+.box_gnb{
+    height: 25px;
+    background-color: #006ddd;
+    text-align: right;
+}
+.box_gnb > ul{
+    max-width: 1250px;
+    line-height: 25px;
+    margin:auto;
+}    
+.box_gnb > ul > li{
+    display: inline-block;
+    font-size: 12px;
+}
+/* ----------------- */
+/* 로고 ~ 한국판 뉴딜 */
+
+.wrap_lnb{
+    border: 1px solid black;
+    
+}
+
+.wrap_logo{
+    border: 1px solid black;
+    height: 90px;
+    max-width: 1250px;
+    margin: auto;
+    line-height: 90px;
+}
+
+.box_logo div,
+.recommend > ul > *,
+.box_nav > ul > li{
+    display: inline-block;
+}
+.r_logo{
+    float: right;
+}
+.box_logo::after{
+    clear: both;
+    content: "";
+    display: block;
+}
+.box_nav{
+    height: 50px;
+    max-width: 1200px;
+    margin: auto;
+}
+.box_nav > ul{
+    display: flex;
+    justify-content: space-between;
+    line-height: 50px;
+}    
+/* ------------------------- */
+/* 메인사진  */
+.box_visual_photo::after{
+    display: block;
+    content: "";
+    clear: both;
+}
+.box_visual_photo{
+    position: relative;
+    height: 420px;
+    max-width: 1200px;
+    margin: auto;
+    padding-top: 55px;
+}
+    
+.box_visual_photo > img{
+    height: 300px;
+    float: left;
+}
+
+.box_issue{
+    border: 1px solid rgb(18, 136, 169);
+    float: left;
+    width: 290px;
+    padding: 20px;
+}
+
+/* --------------------------- */
+/* 비정규군~열린장관실 링크 */
+.wrap_iconlink{
+    border: 1px solid black;
+    max-width: 1200px;
+    height: 110px;
+    line-height: 110px ;
+    margin: auto;
+}
+    
+.wrap_iconlink > ul{
+    display:flex;
+    justify-content: space-between;
+}
+/* ---------------------------- */
+/* 보도자료 / 언론보도 바로보기 박스 */
+.wrap_newsbox{
+    max-width: 1200px;
+    margin: auto;
+    
+}
+.box_newsbox{
+    display: flex;
+    justify-content: space-between;
+    height: 280px;
+}
+.newsbox{
+    width: 430px;
+    
+}
+.newsbox ul{
+    border: 1px solid black;
+    
+}
+
+
+
+.box_newsbox >div{
+    border: 1px solid black;
+}
+.img_news{
+    position: relative;
+}
+    
+    
+    
+.img_news > img{
+    height: 280px;
+    float: left;
+    
+}
+    
+.imglink_button{
+    position: absolute;
+    bottom: 0px;
+    clear: both;
+}
+/* ------------------------ */
+/* 카드뉴스 */
+.wrap_cardnews{
+    max-width: 1200px;
+    margin: auto;
+}
+.box_cardnews{
+    border: 1px solid black;
+    margin: 50px auto;
+    
+}
+.box_cardnews > ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.box_cardnews > ul > li > a > img{
+    width: 190px;
+}    
+/* -------------------------- */
+/* 주요정보 바로가기 */
+.wrap_link{
+    max-width: 1200px;
+    margin:auto;
+}
+    
+    
+    
+.box_rolling_link::after{
+    display: block;
+    content: "";
+    clear: both;
+}
+
+
+
+.box_rolling{
+    border: 1px solid black;
+    width: 800px;
+    height: 200px;
+    position: relative;
+    float: left;
+}
+.rolling_button > *,
+.box_rolling > ul > li{
+    display: inline-block;
+    
+}
+.rolling_button > div{
+    float: right;
+}
+
+.box_snslink{
+    border: 1px solid black;
+    width: 350px;
+    height: 200px;
+    float: right;
+}
+/* --------------------------- */
+/* 국방문화체험~입대장병소식/군인가족지원 */
+.wrap_quick{
+    max-width: 1200px;
+    margin: auto;
+    
+}
+.box_quick div::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.box_quick{
+    border: 1px solid black;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+}
+.box_quick div{
+    display: inline-block;
+    width: 295px;
+    padding:20px;
+}
+.box_quick > div:not(:last-child){
+    border-right: 1px solid black;
+}  
+    
+.box_quick > div > ul{
+    
+    position: relative;
+    float: left;
+    padding-right: 12px;
+}
+.box_quick > div > h4 > a{
+    position: relative;
+    float: right;
+}
+
+/* ----------------------- */
+/* footer */
+#wrap_foot{
+    position: relative;
+    display: block;
+    padding: 30px;
+    width: auto;
+    background-color: #1c2231;
+    font-size: 13px;
+}
+    
+.guide{
+    display: flex;
+    margin-bottom: 15px;
+}
+    
+
+.guide > li{
+    margin-right: 5px;
+    
+}
+.guide > li:not(:last-child) > a{
+    border-right: 1px solid #9daccf;
+    padding: 0px 7px 0px 7px;
+    
+}
+.guide > li > a{
+    color: #9daccf;
+    font-size: 12px;
+}
+#play_up > a{
+    color: #3db4f9;
+    font-weight: bold;
+}
+.info > span,p{
+    color: #fff;
+}
+.info p{
+    margin-top: 15px;
+}
+#number{
+    color: #ff9c00;
+}
+
+.wrap_engine{
+    position: relative;
+    bottom: 80px;
+    float: right;
+}
+    
+    
+.wrap_engine::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+
+.wrap_community{
+    
+    display: block;
+    position: absolute;
+    right: 0px;
+    background: url(../test_web/img/icon_open.jpg);
+    background-repeat: no-repeat;
+    bottom: 30px;
+    font-size: 0px;
+    height: 37px;
+    width: 100px;
+    margin-right: 15px;
+}
+    
+
+    
+
+
+    
+    
+
+
+
+
+
+
+    
+    
+    
+
+
+    
+    
+
+
+    

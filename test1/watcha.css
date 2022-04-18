@@ -1,0 +1,120 @@
+.wrap{
+    width: 100%;
+    height: auto;
+    
+}
+
+
+/* nav */
+.nav_wrap{
+    border: 1px solid black;
+    height: 72px;
+    padding: 0 50px;
+    
+}
+.nav_wrpa::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.nav_wrap div {
+    display: inline-block;
+}
+.watcha_img_box{
+    float: left;
+    border: 1px solid black;
+    width: 94px;
+    height: 72px;
+    background: url(../watcha/watcha.svg);
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-position: center;
+}
+
+   
+    
+
+    
+
+    
+
+    
+.sign_up_box{
+    float:right;
+    border: 1px solid black;
+    width: 94px;
+    height: 72px;
+    text-align: center;
+    line-height: 72px;
+}    
+
+    
+    
+
+
+
+
+/* 가운데 로그인 박스 */
+.login_wrap{
+    
+    border: 1px solid black;
+    height: 462px;
+    text-align: center;
+    
+    
+    
+    
+}
+.login_box{
+    
+    border: 1px solid black;
+    display: inline-block;
+    height: 462px;
+    width: 300px;
+    text-align: center;
+    
+    
+}
+/* .login_box > *{
+    display: inline-block;
+    vertical-align: middle;
+}     */
+    
+    
+    
+    
+    
+   
+    
+
+.login_link li{
+    display: inline-block;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* footer */
+.footer{
+    border: 1px solid black;
+    text-align: center;
+    height: auto;
+    
+}
+.info_box{
+    font-size: 10px;
+    line-height:15px;
+    
+}  
+.info_box > ul > li{
+    display: inline-block;
+}    
+    
+    
