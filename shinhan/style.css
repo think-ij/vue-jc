@@ -1,0 +1,436 @@
+#wrap{
+    width: 100%;
+    height: auto;
+}
+/* 맨위 GNB */
+.wrap_gnb{
+    max-width: 1200px;
+    margin: auto; 
+    
+}
+
+.box_gnb{
+    border:1px solid black;
+    height: 50px;
+    line-height: 50px;
+    
+}
+.box_gnb::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.box_gnb > ul{
+    float: right;
+}   
+.box_gnb > ul > li{
+    display: inline-block;
+}
+#box_search{
+    display: inline-block;
+}
+/* ----------------------- */
+
+
+.box_nav > ul::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.box_nav{
+    border:1px solid black;
+    height: 50px;
+    line-height: 50px;
+    
+}
+.gnb_nav > ul > div {
+    display: inline-block;
+}
+   
+    
+.nav_right > li,
+.nav_left > li{
+    display: inline-block;
+    
+}
+.nav_right{
+    float: right;
+}
+   
+.nav_left > li{
+    padding-right: 30px;
+}
+.nav_right > li{
+    padding-left: 50px;
+}
+
+/* ------------------------ */
+
+/* 중앙 메인화면 ,  오렌지박스 */
+.wrap_container{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.box_container > img{
+    max-width: 1200px;
+    height: 500px;
+}
+.box_check{
+    border:1px solid black;
+    
+}
+.box_icon{
+    
+    top: 300px;
+    width: 400px;
+    height: 150px;
+    padding: 40px 0 0 95px;
+    font-size: 20px;
+    border: 1px solid orange;
+}    
+
+    
+    
+.box_check > ul,
+.box_check > ul > li{
+    display: inline-block;
+}
+.box_manual{
+    border: 1px solid red;
+    padding: 20px 0px;
+}
+.box_manual > li{
+    display: inline-block;
+}    
+.box_manual > li:not(:last-child) {
+    border-right: 1px solid black;
+    padding: 0 5px 0 5px;
+}
+
+.check a::before,
+.pay a::before,
+.confirm a::before{
+    content: "";
+    display: block;
+}
+
+.check a::before{
+    background: url(../shinhan/icon.png) no-repeat;
+    background-size: cover;
+    background-position: -2px;
+    width: 30px;
+    height: 30px;
+    margin-bottom: 10px;
+}
+.pay a::before{
+    background: url(../shinhan/icon.png) no-repeat;
+    background-size: cover;
+    background-position: -35px;
+    width: 30px;
+    height: 30px;
+    margin-bottom: 10px;
+}
+.confirm a::before{
+    background: url(../shinhan/icon.png) no-repeat;
+    background-size: cover;
+    background-position: -67px;
+    width: 30px;
+    height: 30px;
+    margin-bottom: 10px;
+}
+/* --------------------  */
+/* 금융상품 */
+.wrap_product{
+    background-color: #0076be;
+    width: 100%;
+    height: 250px;
+}
+    
+    
+.box_product::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.box_product{
+    max-width: 1200px;
+    margin: auto;
+    height: 250px;
+}
+    
+.box_product > div > *{
+    display: inline-block;
+}
+.box_product > div > a,
+.box_product > ul > .box_img{
+    float: right;
+}
+
+.box_product > ul > li{
+    display: inline-block;
+    text-align: center;
+}
+.box_product >div {
+    padding: 40px 0 30px 0;
+    font-size: 25px;
+    color: #fff;
+}
+    
+.box_product > div > a{
+    background: url(../shinhan/plus_icon.png) no-repeat;
+    text-indent: -5000px;
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+}
+.box_img{
+    background:url(../shinhan/box_img.png) no-repeat;
+    width: 330px;
+    height: 100px;
+    text-indent: -5000px;
+    
+}
+    
+
+
+.icon_01 a::before{
+    background: url(../shinhan/icon_img.png) no-repeat;
+    background-size: cover;
+    background-position: 1px;
+    content: "";
+    display: block;
+    width: 80px;
+    height: 80px;
+    margin-bottom: 10px;
+}
+    
+.icon_02 a::before{
+    background: url(../shinhan/icon_img.png) no-repeat;
+    background-size: cover;
+    background-position:-87px;
+    content: "";
+    display: block;
+    width: 80px;
+    height: 80px;
+    margin-bottom: 10px;
+}
+.icon_03 a::before{
+    background: url(../shinhan/icon_img.png) no-repeat;
+    background-size: cover;
+    background-position: -175px;
+    content: "";
+    display: block;
+    width: 80px;
+    height: 80px;
+    margin-bottom: 10px;
+}
+.icon_04 a::before{
+    background: url(../shinhan/icon_img.png) no-repeat;
+    background-size: cover;
+    background-position: -263px;
+    content: "";
+    display: block;
+    width: 80px;
+    height: 80px;
+    margin-bottom: 10px;
+}
+.icon_05 a::before{
+    background: url(../shinhan/icon_img.png) no-repeat;
+    background-size: cover;
+    background-position: -351px;
+    content: "";
+    display: block;
+    width: 80px;
+    height: 80px;
+    margin-bottom: 10px;
+}
+/* -------------------------- */
+/* 주요서비스 */
+.wrap_service{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.box_service::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+.service{
+    height: 90px;
+    line-height: 90px;
+}
+.service > *{
+    display: inline-block;
+    font-size: 25px;
+}
+.service > span{
+    float: right;
+    font-size: 12px;
+}
+
+.box_service_link{
+    border: 4px solid #e6e3e2 ;
+    margin-bottom: 50px;
+}
+.box_service_link {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+    font-size: 18px;
+}
+.box_service_link > li > a{
+    color: #555555;
+}
+/* ------------------------  */
+/* 주요소식 밑에 새소식 보안뉴스 */
+.wrap_news{
+    max-width: 1200px;
+    margin: auto;
+}
+.box_news_service::after{
+    display: block;
+    content: "";
+    clear: both;
+}
+.box_news_service{
+    padding-bottom: 50px;
+}
+    
+    
+.box_news{
+    
+    width: 600px;
+    position: relative;
+    float: left;
+    margin-right: 100px;
+}
+
+.news > li{
+    display: inline-block;
+}
+.news > li > a{
+    
+}    
+    
+    
+    
+    
+.news_btn{
+    position:absolute;
+    right: 0px;
+}
+.news_title{
+    
+}
+    
+.news_title > li > span{
+    position: absolute;
+    right: 0px;
+}
+
+
+/* 서비스 */
+.box_check_service{
+    float: left;
+}
+    
+    
+.box_check_service > ul > li {
+    display: inline-block;
+}
+
+
+/* ----------------------- */
+/*    */
+.wrap_best_product{
+    width: 100%;
+    height: auto;
+    background-color: #f6fbfd;
+    padding: 50px 0 50px 0;
+}
+.box_best_product{
+    max-width: 1200px;
+    margin: auto;
+}
+.box_best_product > h4 {
+    font-size: 24px;
+    padding-bottom: 25px; 
+}
+.box_best_product > h4 > span{
+    color: #d58017;
+}
+.box_best_product > ul{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    
+}
+.product_box_01{
+    background: #aadaff;
+    padding: 40px 30px;
+}
+.product_box_02{
+    background: #7ae6e9;
+    padding: 40px 30px;
+}
+.box_best_product > ul > li > a > h4{
+    color: #343434;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+
+    
+    
+
+
+
+
+
+
+
+/* footer */
+#wrap_footer{
+    background-color: #6a6a6a;
+    width: 100%;
+    height: auto;
+}
+.box_footer{
+    max-width:1200px;
+    margin: auto;
+    font-size: 14px;
+    padding: 40px 0px;
+    color: #fff;
+}
+    
+    
+.box_footer > ul > li{
+    display: inline-block;
+    margin: 0 15px 15px 0;
+}
+    
+.box_footer > ul > li > a{
+    color: #fff;
+}
+.box_info > span{
+    margin-right: 15px;
+}  
+.box_link,.box_drop,
+.box_control{
+    padding: 25px 0 25px 0;
+    display: inline-block;
+}
+.box_link > li,
+.box_control > li{
+    display: inline-block;
+}   
+.box_footer_link{
+    position: relative;
+}
+.box_drop {
+    position: absolute;
+    right: 0;
+}
+    
